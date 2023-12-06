@@ -55,7 +55,7 @@ public class Lab1 {
                 //якщо result не валідний, виводиться повідомлення про помилку та while(!false) цикл продовжує працювати,
                 //поки не буде введено коректне значення result
                 System.out.println("Value must be in diapason from -128 to 127\nPlease change the value ");
-                //scanner.next();
+                scanner.next();
                 isValid = false;
             }
         }while (!isValid);
