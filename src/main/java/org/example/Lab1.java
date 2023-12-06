@@ -68,8 +68,8 @@ public class Lab1 {
         if (a > n || b > m ) {
             System.out.println("Value n and m must be more than values of a and b\nPlease change the values");
             isValid = false;
-        }else if(a<=C) {
-            System.out.println("ERROR! Devision by zero, a must be more than constant C");
+        }else if(a<=C && n>=C) {
+            System.out.println("ERROR! Devision by zero");
             isValid = false;
         }
         else {
