@@ -69,7 +69,7 @@ public class Lab1 {
             System.out.println("Value n and m must be more than values of a and b\nPlease change the values");
             isValid = false;
         }else if(a<=C && n>=C) {
-            System.out.println("ERROR! Devision by zero");
+            System.out.println("ERROR! Division by zero");
             isValid = false;
         }
         else {
