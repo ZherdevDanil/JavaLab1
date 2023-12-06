@@ -54,7 +54,7 @@ public class Lab1 {
             }catch (InputMismatchException exception){
                 //якщо result не валідний, виводиться повідомлення про помилку та while(!false) цикл продовжує працювати,
                 //поки не буде введено коректне значення result
-                System.out.println("Value must be in diapason from -127 to 128\nPlease change the value ");
+                System.out.println("Value must be in diapason from -128 to 127\nPlease change the value ");
                 //scanner.next();
                 isValid = false;
             }
